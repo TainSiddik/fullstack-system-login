@@ -9,10 +9,10 @@ const Register = () => {
                 <form>
                     <div className="username text-white">
                         <label htmlFor="username" className="block mb-2">Username</label>
-                        <input type="text" id="username" className="rounded-full py-1 w-full px-3 ring-2 ring-sky-200 outline-sky-300 bg-black bg-opacity-0" placeholder="example@gmail.com" />
+                        <input type="text" id="username" className="rounded-full py-1 w-full px-3 ring-2 ring-sky-200 outline-sky-300 bg-black bg-opacity-0" placeholder="Username" />
                     </div>
                     <div className="email text-white">
-                        <label htmlFor="email" className="block mb-2">Email</label>
+                        <label htmlFor="email" className="block mb-2 mt-4">Email</label>
                         <input type="text" id="email" className="rounded-full py-1 w-full px-3 ring-2 ring-sky-200 outline-sky-300 bg-black bg-opacity-0" placeholder="example@gmail.com" />
                     </div>
                     <div className="password text-white mt-4">
